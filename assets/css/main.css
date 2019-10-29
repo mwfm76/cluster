@@ -1,0 +1,63 @@
+/* 主題 */
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.one-theme {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0, 1);
+}
+.sec-theme {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0, 1);
+}
+.pm-0 {
+    padding: 0;
+    margin: 0;
+}
+/* 物件 */
+iframe {
+    width: 100vw;
+    height: 70vh;
+}
+.span-live {
+    background-color: red;
+    color: white;
+    font-size: 0.4em;
+    border-radius: 0.2em;
+    padding-left: .5rem!important;
+    padding-right: .5rem!important;
+    margin: auto auto;
+}
+.nav {
+    box-shadow: 0 3px 2px -2px rgba(0,0,0,.2);
+    display: flex;
+    height: 5rem;
+    z-index: 500;
+}
+.h1-nav {
+    margin: auto 1rem;
+}
+.ul-nav {
+    position: relative;
+    left: auto;
+    right: 0;
+    margin: auto 2rem;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    font-size: 1.2rem;
+}
+.ul-nav > li, .ul-nav > li > a:visited {
+    margin: 0 0.4rem;
+    color: rgb(0, 0, 0, 1);
+}
+.sol {
+    background-color: rgba(189, 214, 194, 0.445);
+    height: 60vh;
+}
+.p-sol {
+    margin: 0;
+}
