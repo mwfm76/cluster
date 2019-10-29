@@ -69,6 +69,8 @@ a {
     box-shadow:rgba(0, 0, 0, 0.2) 0px 6px 16px 0px;
     height: 50vh;
     width: 50vw;
+    position: relative;
+    margin: 0 auto;
 }
 .main-sol > iframe {
     height: 100%;   
