@@ -59,8 +59,8 @@ a {
     color: rgb(0, 0, 0, 1);
 }
 .sol {
-    background-color: rgba(189, 214, 194, 0.445);
-    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 80vh;
 }
 .p-sol {
     margin: 0;
@@ -75,6 +75,25 @@ a {
 .main-sol > iframe {
     height: 100%;   
     width: 100%;
+}
+.bg-sol {
+    z-index: -100;
+    justify-content: center;
+    position: fixed;
+    top: -10vh;
+    left: -50vw;
+    height: 100vh;
+    width: 200vw;
+    /* -webkit-filter: blur(8px);
+    filter: blur(8px); */
+}
+.title-sol {
+    top: 40vh;
+    width: 100vw;
+    margin: 0;
+    font-size: 3em;
+    position: absolute;
+    text-align: center;
 }
 
 /* TEST */
