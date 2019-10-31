@@ -110,6 +110,7 @@ a {
     background-image: url(https://lh3.googleusercontent.com/jiIbAEGkCHKejGnF9J2wS9tqCkTeb60oTqu_n4ybjn1EPos9II4rfGZFrXTvMB3nJoL07BJxk4TDA6_X2sxI);
 }
 .txt-img {
+    width: 40vw;
     background-color: rgba(255, 255, 255, 0.781);
     position: absolute;
     padding: 2em;
