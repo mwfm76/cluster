@@ -79,7 +79,7 @@ a {
     width: 100%;
 }
 .bg-sol {
-    /* display: none; */
+    display: none;
 }
 .title-sol {
     top: 40vh;
