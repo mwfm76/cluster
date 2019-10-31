@@ -1,6 +1,8 @@
 /* 主題 */
 * {
     font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -77,6 +79,58 @@ a {
     width: 100%;
 }
 .bg-sol {
+    display: none;
+}
+.title-sol {
+    top: 40vh;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+}
+.title-sol > h1 {
+    font-size: 3em;
+}
+.title-sol > p {
+    font-size: 1.5rem;
+}
+.list {
+    background-color: rgb(255, 255, 255);
+    padding: 3em 5vw;
+    box-shadow: 0 3px 2px -2px rgba(0,0,0,.2);
+
+}
+.list > h2 {
+    font-size: 2em;
+}
+.img {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://lh3.googleusercontent.com/jiIbAEGkCHKejGnF9J2wS9tqCkTeb60oTqu_n4ybjn1EPos9II4rfGZFrXTvMB3nJoL07BJxk4TDA6_X2sxI);
+}
+.txt-img {
+    background-color: rgba(255, 255, 255, 0.781);
+    position: absolute;
+    padding: 2em;
+    margin: 5em;
+    right: 0;
+    height: auto;
+}
+.txt-img > h1 {
+    font-size: 2.5em;
+}
+.txt-img > p {
+    font-size: 1.2em;
+}
+.block2 {
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 1024px) {
+.bg-sol {
+    display: block;
     z-index: -100;
     justify-content: center;
     position: fixed;
@@ -87,16 +141,34 @@ a {
     /* -webkit-filter: blur(8px);
     filter: blur(8px); */
 }
-.title-sol {
-    top: 40vh;
-    width: 100vw;
-    margin: 0;
-    font-size: 3em;
-    position: absolute;
-    text-align: center;
+.img {
+    height: 60vh;
 }
+.txt-img {
+    width: 50vw;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* TEST */
 body {
-    height: 150vh;
+    height: 500vh;
+}
+.list {
+    height: 50vh;
 }
