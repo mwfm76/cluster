@@ -79,7 +79,15 @@ a {
     width: 100%;
 }
 .bg-sol {
-    display: none;
+    /* display: none; */
+    display: block;
+    z-index: -100;
+    justify-content: center;
+    position: fixed;
+    top: -10vh;
+    left: -50vw;
+    height: 100vh;
+    width: 200vw;
 }
 .title-sol {
     top: 40vh;
@@ -108,7 +116,7 @@ a {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUgvF5ArFT8Crmu7scJbv5mjNvSz3C-t2r8tFX73x9p7fllWrP);
+    background-image: url(https://cdn.mos.cms.futurecdn.net/4mWwNFGZKBP69GEVEsovwW.jpg);
 }
 .txt-img {
     background-color: rgba(255, 255, 255, 0.781);
